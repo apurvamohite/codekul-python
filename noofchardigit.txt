@@ -1,0 +1,12 @@
+str=input('enter string')
+digit=0
+letter=0
+for ch in str:
+    if ch.isdigit():
+        digit=digit+1
+    else:
+        if ch.isalpha():
+            letter=letter+1
+print('no of digit:',digit)
+print('no of letters:',letter)
+    
