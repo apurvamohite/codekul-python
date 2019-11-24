@@ -1,0 +1,15 @@
+str=input('enter string')
+
+l=0
+
+h=len(str)-1
+
+while h > l:
+
+    if (str[l+1] != str[h-1]):
+
+        print('string is not palindrom')
+
+    else:
+
+        print('palindrom')

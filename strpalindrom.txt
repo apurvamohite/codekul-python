@@ -1,0 +1,8 @@
+str=input('enter string')
+    
+str1=str[::-1]
+print(str1)
+if str1 == str:
+    print('palindrom')
+else:
+    print('not palindrom')

@@ -1,0 +1,12 @@
+num=input('enter a number')
+num1=int(num)
+originalnum=num1
+reversenum=0
+while num1!=0:
+    a=num1%10
+    reversenum=reversenum*10+a
+    num1=num1//10
+if reversenum == originalnum:
+    print('palindrom')
+else:
+    print('not palindrom')

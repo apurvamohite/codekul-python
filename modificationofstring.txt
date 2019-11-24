@@ -1,0 +1,12 @@
+#program for modification of string
+
+
+string=input('enter string')
+
+if string[-3:]=='ing':
+
+    print(string+'ly')
+
+else:
+
+    print(string+'ing')

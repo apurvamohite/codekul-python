@@ -1,0 +1,15 @@
+#program for counting occurance of characters in string
+
+str1=input("Enter the String : ")
+
+l=len(str1)
+
+for i in range(l):
+
+    c=str1[i]
+
+    d=str1.count(str(c))
+
+    print(c,":",d)
+
+    print()
