@@ -1,0 +1,9 @@
+def frequency_of_character(str1):
+  l=len(str1)
+  for i in range(l):
+    c=str1[i]
+    d=str1.count(str(c))
+    print(c ,':' ,d)
+    print()
+str1=input('enter string')
+frequency_of_character(str1)

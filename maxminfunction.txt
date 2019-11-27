@@ -1,0 +1,12 @@
+def maxmin1_function(l1):
+  max_no=l1[0]
+  min_no=l1[0]
+  for no in l1:
+    if no > max_no:
+      max_no=no
+    if no < min_no:
+      min_no=no
+  print('largest number in the list is:',max_no)
+  print('smallest number in the list is:',min_no)
+l1=[-1,2,3,4,-5,6,7,8,9,10]
+maxmin1_function(l1)

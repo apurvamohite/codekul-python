@@ -1,0 +1,8 @@
+def temp_conversion(t):
+
+  c=(t - 32) * 0.5556
+  f=(t * 1.8) + 32
+  print('temperature in celcius:',c)
+  print('temperature in farenfeit:',f)
+t=int(input('enter temperature'))
+temp_conversion(t)

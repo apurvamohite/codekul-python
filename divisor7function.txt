@@ -1,0 +1,6 @@
+def divisor_seven():
+  for no in range(1500,2700):
+    if no % 7 == 0:
+      if no % 5 == 0:
+        print(no)
+divisor_seven()

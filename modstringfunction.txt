@@ -1,0 +1,7 @@
+def mod_string(str):
+  if str[-3:]=='ing':
+    print(str+'ly')
+  else:
+    print(str+'ing')
+str=input('enter string')
+mod_string(str)

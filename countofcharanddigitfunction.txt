@@ -1,0 +1,13 @@
+def count_of_char(str1):
+  digit=0
+  letter=0
+  for ch in str1:
+    if ch.isdigit():
+      digit+=1
+    else:
+      if ch.isalpha():
+       letter+=1
+  print('letters:',letter)
+  print('digit:',digit)
+str1=input('enter string')
+count_of_char(str1)
